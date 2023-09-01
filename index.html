@@ -154,16 +154,50 @@
     <section class="contact">
         <h3 class="section-title-white">Contacta ahora</h3>
         <form class="contact-form" action="#" method="post">
-             <input type="text" name="name" id="name" class="contact-input" placeholder="Nombre" />
-             <input type="text" name="email" id="email" class="contact-input" placeholder="Email" />
-             <input type="text" name="phone" id="phone" class="contact-input" placeholder="Número de teléfono" />
-             <textarea name="message" id="message" class="contact-textarea" placeholder="Mensaje"></textarea>
-             <input type="submit" value="Enviar" class="contact-btn"/>
+            <input type="text" name="name" id="name" class="contact-input" placeholder="Nombre" />
+            <input type="text" name="email" id="email" class="contact-input" placeholder="Email" />
+            <input type="text" name="phone" id="phone" class="contact-input" placeholder="Número de teléfono" />
+            <div name="message" contenteditable="true" id="message" class="contact-textarea">Mensaje</div>
+            <input type="submit" value="Enviar" class="contact-btn" />
         </form>
     </section>
     <!-- END FORM SECTION -->
 
-    <footer></footer>
+    <!-- FOOTER SECTION -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-card">
+                <img src="./assets/images/logo1.png" alt="Logo">
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+            <div class="footer-card">
+                <h5>Sobre nosotros</h5>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil nisi aut molestiae natus soluta
+                    eligendi ea corporis eaque.</p>
+            </div>
+            <div class="footer-card">
+                <h5>contáctenos</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora inventore amet quam consequuntur
+                    reiciendis autem repellat sunt voluptatem.</p>
+            </div>
+            <div class="footer-card">
+                <h5>boletín</h5>
+                <form method="post" action="#">
+                    <input type="email" class="sub-input" placeholder="Introduce tu email">
+                    <input type="submit" class="sub-btn" value="Subscribite">
+                </form>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>© 2023 Todos los derechos reservados. Diseñado por Alan Galván</p>
+        </div>
+    </footer>
+    <!-- END FOOTER SECTION -->
 
 </body>
 
